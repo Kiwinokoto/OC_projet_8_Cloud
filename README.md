@@ -1,18 +1,24 @@
-# projet 7, Speech to text (+ translation)
-# transformer model, local, no API
-# pytorch, dataset fr
+# projet 8, Réalisez un traitement dans un environnement Big Data sur le Cloud
 
-# projet original : https://www.kaggle.com/code/stpeteishii/french-audio-wav2vec2-translation
-# pbblmt inspiré (?) par : https://www.kaggle.com/code/dikshabhati2002/speech-to-text-with-hugging-face/notebook
+# Testé AWS et Google Cloud
+# Packages essentiels : pyspark, tensorflow
 
-# Il y a encore 2 ans, le modèle wav2vec2 de facebook obtenait les meilleures performances en termes de transcription speech to text.
-# Les espaces d'embedding contextualisés, similaires à ceux qu'on utilise en NLP (word2vec, doc2vec, glove, etc...)
-# semblaient être l'approche la plus prometteuse pour construire un "traducteur universel".
-
-# Il y a un an environ, un autre modèle transformer encoder-decoder, Whisper, a pourtant révolutionné le domaine.
+# Ce projet consiste à effectuer une extraction de feature + ACP,
+# sur un dataset de 300 photos de fruits (131 catégories différentes).
+# d'abord en local, puis sur le cloud.
 
 
-# Ce projet comporte : 
+# Ce dossier comporte :
 
+1 Notebook AWS : 
+    Le notebook réalisé par un alternant, complété (PCA). Première solution testée : AWS
+    Rôle IAM, données stockées sur S3, créations d'instances EC2 avec bootstrap et persistance, tunnel SSH au maître + proxy.
 
-
+2 Notebook Images
+    Le notebook déployé sur le cloud. 
+    Données stockées dans un bucket google storage. Possible de créer des instances depuis le Compute Engine,
+    de manière très similaire à AWS. 
+    Seconde solution, retenue : Vertex Workbench, puisqu'on travaille depuis un notebook. Environnement choisi : pyspark
+    (sinon, il faut installer Java !)
+    
+3 Présentation
