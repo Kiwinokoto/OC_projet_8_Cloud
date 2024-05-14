@@ -213,7 +213,7 @@ torchmetrics==1.4.0
 torchsde==0.2.5
 torchvision==0.16.0+cu121
 tornado @ file:///croot/tornado_1696936946304/work
-tqdm==4.64.1
+tqdm==4.66.3
 traitlets @ file:///work/ci_py311/traitlets_1676823305040/work
 trampoline==0.1.2
 transformers==4.30.2
