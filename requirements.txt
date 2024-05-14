@@ -135,7 +135,7 @@ pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
 parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare==0.7.5
-Pillow==9.2.0
+Pillow==10.3.0
 platformdirs @ file:///croot/platformdirs_1692205439124/work
 ply==3.11
 pretty-errors==1.2.25
