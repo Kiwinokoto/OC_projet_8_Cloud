@@ -60,7 +60,7 @@ google-crc32c @ file:///work/ci_py311/google-crc32c_1676839903601/work
 google-pasta @ file:///Users/ktietz/demo/mc3/conda-bld/google-pasta_1630577991354/work
 google-resumable-media @ file:///work/ci_py311/google-resumable-media_1676844199704/work
 googleapis-common-protos @ file:///work/ci_py311/googleapis-common-protos-feedstock_1676830575625/work
-gradio==3.41.2
+gradio==4.19.2
 gradio_client==0.5.0
 grpcio @ file:///croot/grpc-suite_1681912592597/work
 h11==0.14.0
